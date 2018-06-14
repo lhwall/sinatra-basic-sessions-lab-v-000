@@ -11,8 +11,8 @@ get "/" do
   erb :index
 end
 
-post "/checkout" do 
-@session = session  
+post "/checkout" do
+@session = session
 @session.merge!(params)
 erb :cart
 end
