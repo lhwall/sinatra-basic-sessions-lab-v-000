@@ -15,4 +15,6 @@ post "/checkout" do
 @session = session
 @session.merge!(params)
 erb :cart
+end 
+
 end
